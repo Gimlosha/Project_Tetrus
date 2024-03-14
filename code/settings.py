@@ -23,24 +23,24 @@ ROTATE_WAIT_TIME = 200
 BLOCK_OFFSET = pygame.Vector2(COLUMNS // 2, -1)
 
 # Colors
-YELLOW = '#f1e60d'
+WHITE = '#ffffff'
 RED = '#e51b20'
 BLUE = '#204b9b'
-GREEN = '#65b32e'
-PURPLE = '#7b217f'
-CYAN = '#6cc6d9'
-ORANGE = '#f07e13'
+#GREEN = '#65b32e'
+#PURPLE = '#7b217f'
+#CYAN = '#6cc6d9'
+#ORANGE = '#f07e13'
 GRAY = '#1C1C1C'
 LINE_COLOR = '#FFFFFF'
 
 # shapes
 TETROMINOS = {
-    'T': {'shape': [(0,0), (-1,0), (1,0), (0,-1)], 'color': PURPLE},
-    'O': {'shape': [(0,0), (0,-1), (1,0), (1,-1)], 'color': YELLOW},
+    'T': {'shape': [(0,0), (-1,0), (1,0), (0,-1)], 'color': WHITE},
+    'O': {'shape': [(0,0), (0,-1), (1,0), (1,-1)], 'color': WHITE},
     'J': {'shape': [(0,0), (0,-1), (0,1), (-1,1)], 'color': BLUE},
-    'L': {'shape': [(0,0), (0,-1), (0,1), (1,1)], 'color': ORANGE},
-    'I': {'shape': [(0,0), (0,-1), (0,-2), (0,1)], 'color': CYAN},
-    'S': {'shape': [(0,0), (-1,0), (0,-1), (1,-1)], 'color': GREEN},
+    'L': {'shape': [(0,0), (0,-1), (0,1), (1,1)], 'color': BLUE},
+    'I': {'shape': [(0,0), (0,-1), (0,-2), (0,1)], 'color': BLUE},
+    'S': {'shape': [(0,0), (-1,0), (0,-1), (1,-1)], 'color': RED},
     'Z': {'shape': [(0,0), (1,0), (0,-1), (-1,-1)], 'color': RED}
 }
 
